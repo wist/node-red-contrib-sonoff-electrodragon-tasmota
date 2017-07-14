@@ -5,16 +5,16 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/steffenmllr/node-red-contrib-sonoff-tasmota"
+    "url": "https://github.com/wist/node-red-contrib-sonoff-electrodragon-tasmota"
   },
-  "author": "Steffen Müller",
+  "author": "Steffen Müller/Vitalii Istushkin",
   "license": "MIT",
   "devDependencies": {
     "xo": "^0.18.1"
   },
   "node-red": {
     "nodes": {
-      "Sonoff device": "sonoff.js"
+      "Sonoff/ELDR device": "sonoff.js"
     }
   },
   "xo": {
