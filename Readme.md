@@ -6,10 +6,10 @@
 
 ## Installation
 
-Install `node-red-contrib-sonoff-tasmota` using [npm](https://www.npmjs.com/):
+Install `node-red-contrib-sonoff-electrodragon-tasmota` using [npm](https://www.npmjs.com/):
 
 ```bash
-npm install --save node-red-contrib-sonoff-tasmota
+npm install --save node-red-contrib-sonoff-electrodragon-tasmota
 ```
 
 ## Usage
@@ -62,5 +62,5 @@ To control the switch you can use a true/false input node or connect a UI Button
 
 MIT © [Steffen Müller](http://steffen.io)
 
-[npm-url]: https://npmjs.org/package/node-red-contrib-sonoff-tasmota
+[npm-url]: https://npmjs.org/package/node-red-contrib-sonoff-electrodragon-tasmota
 [npm-image]: https://badge.fury.io/js/node-red-contrib-sonoff-tasmota.svg
