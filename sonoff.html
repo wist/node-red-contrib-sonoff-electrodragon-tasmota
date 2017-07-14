@@ -5,6 +5,7 @@ RED.nodes.registerType('Sonoff device', {
     defaults: {
         broker: { type: 'mqtt-broker', required: true },
         id: { value: 'sonoff', required: true },
+        relay: { value: ''}, 
         name: { value: ''},
         onValue: { value: 'ON' },
         offValue: { value: 'OFF' },
@@ -31,6 +32,11 @@ RED.nodes.registerType('Sonoff device', {
     <div class="form-row">
         <label for="node-input-broker"><i class="fa fa-globe"></i> Mqtt</label>
         <input type="text" id="node-input-broker">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-relay"><i class="icon-tag"></i> Relay</label>
+        <input type="text" id="node-input-relay" placeholder="Relay">
     </div>
 
     <div class="form-row">
