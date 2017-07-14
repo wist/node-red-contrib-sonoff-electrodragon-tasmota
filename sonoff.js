@@ -13,10 +13,10 @@ module.exports = function (RED) {
         // Topics
         const topicTeleLWT = `${config.telePrefix}/${config.id}/LWT`;
 
-        const topicCmdPower = `${config.cmdPrefix}/${config.id}/power`;
+        const topicCmdPower = `${config.cmdPrefix}/${config.id}/power${config.relay}`;
         const topicCmdStatus = `${config.cmdPrefix}/${config.id}/status`;
 
-        const topicStatsPower = `${config.statPrefix}/${config.id}/POWER`;
+        const topicStatsPower = `${config.statPrefix}/${config.id}/POWER${config.relay}`;
         const topicStatsStatus = `${config.statPrefix}/${config.id}/STATUS`;
 
         if (brokerConnection) {
