@@ -1,7 +1,7 @@
 {
   "name": "node-red-contrib-sonoff-tasmota",
   "version": "1.0.0",
-  "description": "Connect Sonoff Devices running the Sonoff-Tasmota firmware easy to node red",
+  "description": "Connect Sonoff/Electrodragon Devices running the Sonoff-Tasmota firmware easy to node red",
   "main": "index.js",
   "repository": {
     "type": "git",
