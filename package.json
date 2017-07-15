@@ -1,29 +1,32 @@
 {
-  "name": "node-red-contrib-sonoff-tasmota",
+  "name": "red-contrib-sonoff-electrodragon-tasmota",
   "version": "1.0.0",
   "description": "Connect Sonoff/Electrodragon Devices running the Sonoff-Tasmota firmware easy to node red",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wist/node-red-contrib-sonoff-electrodragon-tasmota"
+    "url": "git+https://github.com/wist/node-red-contrib-sonoff-electrodragon-tasmota.git"
   },
+  "keywords": [
+    "NodeRed",
+    "Tasmota",
+    "Electrodragon"
+  ],
   "author": "Steffen Müller/Vitalii Istushkin",
   "license": "MIT",
-  "devDependencies": {
-    "xo": "^0.18.1"
-  },
   "node-red": {
     "nodes": {
       "Sonoff/ELDR device": "sonoff.js"
     }
   },
-  "xo": {
-    "space": 4
+  "bugs": {
+    "url": "https://github.com/wist/node-red-contrib-sonoff-electrodragon-tasmota/issues"
   },
-  "scripts": {
-    "test": "xo"
-  },
+  "homepage": "https://github.com/wist/node-red-contrib-sonoff-electrodragon-tasmota#readme",
   "dependencies": {
-    "debug": "^2.6.6"
+    "node-red-contrib-sonoff-electrodragon-tasmota": "^1.0.0"
   }
 }
